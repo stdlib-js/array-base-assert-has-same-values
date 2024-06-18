@@ -38,9 +38,11 @@
   },
   "dependencies": {
     "@stdlib/array-base-arraylike2object": "^0.2.1",
+    "@stdlib/array-base-assert-is-booleanarray": "github:stdlib-js/array-base-assert-is-booleanarray#main",
     "@stdlib/array-base-assert-is-complex128array": "^0.2.1",
     "@stdlib/array-base-assert-is-complex64array": "^0.2.1",
     "@stdlib/assert-is-same-value": "^0.2.1",
+    "@stdlib/strided-base-reinterpret-boolean": "github:stdlib-js/strided-base-reinterpret-boolean#main",
     "@stdlib/strided-base-reinterpret-complex128": "^0.2.1",
     "@stdlib/strided-base-reinterpret-complex64": "^0.2.0",
     "@stdlib/types": "^0.3.2"
@@ -48,6 +50,7 @@
   "devDependencies": {
     "@stdlib/array-base-accessor": "^0.2.1",
     "@stdlib/array-base-zeros": "^0.2.1",
+    "@stdlib/array-bool": "github:stdlib-js/array-bool#main",
     "@stdlib/array-complex128": "^0.2.1",
     "@stdlib/array-complex64": "^0.2.1",
     "@stdlib/array-float64": "^0.2.1",
