@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,28 +16,33 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Collection, AccessorArrayLike } from '@stdlib/types/array';
 
 /**
-* Test if two arrays have the same values.
+* Tests if two arrays have the same values.
 *
-* @module @stdlib/array-base-assert-has-same-values
+* ## Notes
+*
+* -   If provided arrays of unequal length, the function returns `false`.
+*
+* @param x - first input array
+* @param y - second input array
+* @returns boolean indicating whether both arrays have the same values
 *
 * @example
-* var hasSameValues = require( '@stdlib/array-base-assert-has-same-values' );
-*
 * var x = [ 0, 0, 1, 0 ];
 * var y = [ 0, 0, 1, 0 ];
 *
 * var out = hasSameValues( x, y );
 * // returns true
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function hasSameValues<T = unknown, U = unknown>( x: Collection<T> | AccessorArrayLike<T>, y: Collection<U> | AccessorArrayLike<U> ): boolean;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = hasSameValues;
