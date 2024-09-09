@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`4a14f03`](https://github.com/stdlib-js/stdlib/commit/4a14f034cc432c477ce41d452ea220803b45525c) - **test:** add tests _(by Athan Reines)_
 -   [`6bbe26f`](https://github.com/stdlib-js/stdlib/commit/6bbe26f751894cadb15279ceb6cf739475bb0612) - **test:** fix descriptions _(by Athan Reines)_
 
 </details>
